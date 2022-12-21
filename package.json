@@ -1,0 +1,30 @@
+{
+  "name": "debug-id",
+  "version": "1.0.0",
+  "description": "Get unique IDs for objects in the debugger",
+  "main": "index.js",
+  "scripts": {
+    "lint": "prettier --check . && eslint --max-warnings=0 ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loderunner/debug-id.git"
+  },
+  "keywords": [
+    "debug",
+    "id",
+    "unique",
+    "id",
+    "debugger"
+  ],
+  "author": "Charles Francoise <charles.francoise@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/loderunner/debug-id/issues"
+  },
+  "homepage": "https://github.com/loderunner/debug-id#readme",
+  "devDependencies": {
+    "eslint": "^8.30.0",
+    "prettier": "^2.8.1"
+  }
+}
