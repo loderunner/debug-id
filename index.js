@@ -1,7 +1,7 @@
 const inspector = require('inspector');
 
 if (inspector.url() !== undefined) {
-  if (Object.id !== 'undefined') {
+  if (Object.id !== undefined) {
     return;
   }
 
